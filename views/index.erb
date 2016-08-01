@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <style>
+      body {
+        background: #668cff
+      }
+    </style>
+  </head>
+  	<body>
+		<p>"Input the text which you want to Encrypt!"</p>
+		<form>
+			<input type="text" name="input" />
+			<p>Key for Encryption!</p>
+			<input type="text" name="key" />
+			<p>In which direction you want encryption?(L/R)</p>
+			<input type="text" name="direction" />
+			<input type="submit" name="encrypt" />
+		</form>
+		<p>Encrypted Message is:</p>
+		<p>
+			<%= output %>
+		</p>
+	</body>
+</html>
